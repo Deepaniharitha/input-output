@@ -5,18 +5,26 @@ Input and Output Format:
 Refer sample input and output for formatting specifications.
 [All text in bold corresponds to input and the rest corresponds to output]
 ...
-print("team 1:")
-print("Team Name:")
-a=input()
-print("score:")
-b=int(input()
-print("overs played:")
-c=int(input())
-print("Team 2:")
-print("team Name:")
-d=input()
-print("score:")
-e=int(intput())
-print("overs played:")
-f=int(input())
-print("match details:")
+def main():
+    print("Team 1:")
+    team1_name = input("Team Name:\n")
+    team1_score = input("Score:\n")
+    team1_overs = input("Overs played:\n")
+    print("Team 2:")
+    team2_name = input("Team name:\n")
+    team2_score = input("Score:\n")
+    team2_overs = input("Overs played:\n")
+    print("Match Details:")
+    print(f"Team 1:")
+    print(f"Name: {team1_name}")
+    print(f"Score: {team1_score}")
+    print(f"Overs played: {team1_overs}")
+    print(f"Team 2:")
+    print(f"Name: {team2_name}")
+    print(f"Score: {team2_score}")
+    print(f"Overs played: {team2_overs}")
+if __name__ == "__main__":
+    main()'''
+
+
+ 
